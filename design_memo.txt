@@ -1,0 +1,14 @@
+A tree is appropriate for the doctor structure because it is hierarchical. Therefore, we can have doctors and show their subordinates.
+This could also display knowledge and specialization so we can ensure patients are given to doctors who accurately understand their condition
+and can give them the best care possible. Those with more serious and urgent cases should be given to the best doctors available to ensure
+that they are given the best care possible. 
+
+Preorder traversals are useful for copying or saving a tree structure in order to use it later or to understand how a tree is structured.
+Inorder is used to search through trees or retrieve sorted data to use in other functions or mathematical expressions. Postorder is useful
+when deleting from trees, so child items are visited first and can be deleted. They are also useful for bottom-up calculations. Each one
+of these traversal methods has many different uses and offers many different ways to interact with trees to make them useful.
+
+Heaps help simulate a real-world emergency system by automatically sorting patients based on need for care, so that the most urgent are taken first.
+They also make it easy to add to, remove, and peek at to see who is next in line. If you were to use a regular list, it would be time and space 
+consuming to sort manually or by iterating through the list. A heap has an insertion and extraction time of O(log n) so the time is close to 
+consistent and time stays close to the same even with a large system. 
